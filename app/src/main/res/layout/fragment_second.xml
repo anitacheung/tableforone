@@ -24,4 +24,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textview_second" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="144dp"
+        android:layout_height="73dp"
+        android:text="no content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="133dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

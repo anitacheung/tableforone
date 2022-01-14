@@ -6,6 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".FirstFragment">
 
+    <EditText
+        android:id="@+id/inputFoodName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Food"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.485"
+        tools:layout_editor_absoluteX="100dp" />
+
     <TextView
         android:id="@+id/textview_first"
         android:layout_width="wrap_content"
